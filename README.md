@@ -1,3 +1,23 @@
+You will find the test and training model calculations for th Logistical Regression and Random Forest classifier within each respective directory of the project folder.
+
+My predicition at the start of the challenge was that the logistical regression model would be stronger because one of the strengths of the aproach is the capability 
+to analyze numeric values while the strength of the random forest classifier is the ability to fit based on categorical (binary) values.
+
+My prediction was based on the lending data being a numeric dataset.
+
+In the end, while the training score for the logistical regresssion model was 60% after scaling the data, the test score was nearly 100%.
+
+By contrast, the training data for the random forest classifier was 100% but the accuracy was lower while the test score was 92%.
+
+
+Based as much, I think my prediction was incorrect because I would rather have a 92% accuracy score based on a fully trained model, than a near 100% level of
+accuracy based on a model that had a training score of 60%.
+
+
+
+--
+
+
 # Supervised Machine Learning Homework - Predicting Credit Risk
 
 In this assignment, you will be building a machine learning model that attempts to predict whether a loan will be approved or not. 
